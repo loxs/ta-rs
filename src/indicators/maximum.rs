@@ -46,7 +46,7 @@ impl Maximum {
         }
     }
 
-    fn find_max_index(&self) -> usize {
+    pub fn find_max_index(&self) -> usize {
         let mut max = f64::NEG_INFINITY;
         let mut index: usize = 0;
 

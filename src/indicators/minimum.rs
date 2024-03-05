@@ -45,7 +45,7 @@ impl Minimum {
         }
     }
 
-    fn find_min_index(&self) -> usize {
+    pub fn find_min_index(&self) -> usize {
         let mut min = f64::INFINITY;
         let mut index: usize = 0;
 
